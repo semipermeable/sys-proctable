@@ -2,11 +2,11 @@ require 'rubygems'
 require 'rbconfig'
 
 Gem::Specification.new do |spec|
-  spec.name       = 'sys-proctable'
+  spec.name       = 'tddium-sys-proctable'
   spec.version    = '0.9.1'
   spec.author     = 'Daniel J. Berger'
   spec.license    = 'Artistic 2.0' 
-  spec.email      = 'djberg96@gmail.com'
+  spec.email      = 'info@tddium.com'
   spec.homepage   = 'http://www.rubyforge.org/projects/sysutils'
   spec.platform   = Gem::Platform::CURRENT
   spec.summary    = 'An interface for providing process table information'
@@ -31,6 +31,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('test-unit', '>= 2.1.2')
 
   spec.description = <<-EOF
+    Testing a separate publish to see if I can get the mac install to work with bundler.
+
     The sys-proctable library provides an interface for gathering information
     about processes on your system, i.e. the process table. Most major
     platforms are supported and, while different platforms may return
