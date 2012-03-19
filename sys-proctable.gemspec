@@ -3,12 +3,12 @@ require 'rbconfig'
 
 Gem::Specification.new do |spec|
   spec.name       = 'tddium-sys-proctable'
-  spec.version    = '0.9.1'
+  spec.version    = '0.9.2'
   spec.author     = 'Daniel J. Berger'
   spec.license    = 'Artistic 2.0' 
   spec.email      = 'info@tddium.com'
   spec.homepage   = 'http://www.rubyforge.org/projects/sysutils'
-  spec.platform   = Gem::Platform::CURRENT
+  spec.platform   = 'x86_64-linux'
   spec.summary    = 'An interface for providing process table information'
   spec.has_rdoc   = true
   spec.test_files = ['test/test_sys_proctable_all.rb']
