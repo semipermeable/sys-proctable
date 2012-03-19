@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.license    = 'Artistic 2.0' 
   spec.email      = 'info@tddium.com'
   spec.homepage   = 'http://www.rubyforge.org/projects/sysutils'
-  spec.platform   = 'x86_64-linux'
+  spec.platform   = 'RUBY'
   spec.summary    = 'An interface for providing process table information'
   spec.has_rdoc   = true
   spec.test_files = ['test/test_sys_proctable_all.rb']
@@ -24,6 +24,10 @@ Gem::Specification.new do |spec|
     'README',
     'sys-proctable.gemspec'
   ]
+
+  spec.require_paths = ['lib', 'lib/linux']
+  spec.files += ['lib/linux/sys/proctable.rb']
+  spec.test_files << 'test/test_sys_proctable_linux.rb'
 
   spec.rubyforge_project = 'sysutils'
   spec.extra_rdoc_files  = ['CHANGES', 'README', 'MANIFEST', 'doc/top.txt']
