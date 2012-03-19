@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
     'MANIFEST',
     'Rakefile',
     'README',
-    'sys-proctable.gemspec'
+    'tddium-sys-proctable.gemspec'
   ]
 
   spec.require_paths = ['lib', 'lib/linux']
